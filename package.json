@@ -1,0 +1,32 @@
+{
+  "name": "@kare/tsconfig",
+  "version": "0.0.1-beta.0",
+  "description": "Shared Typescript build configuration for Kare's Typescript projects.",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "tsc --project ."
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": "^18"
+  },
+  "keywords": [
+    "tsconfig",
+		"typescript"
+  ],
+  "author": "Kare Nuorteva <kare.nuorteva@me.com> (https://karenuorteva.fi/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kare/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kare/tsconfig/issues"
+  },
+  "homepage": "https://github.com/kare/tsconfig#readme"
+}
